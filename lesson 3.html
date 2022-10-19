@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    video {
+      width: 100%;
+      height: 80%;
+    }
+    
+    .row:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .col-s-1 {width: 8.33%;}
+      .col-s-2 {width: 16.66%;}
+      .col-s-3 {width: 25%;}
+      .col-s-4 {width: 33.33%;}
+      .col-s-5 {width: 41.66%;}
+      .col-s-6 {width: 50%;}
+      .col-s-7 {width: 58.33%;}
+      .col-s-8 {width: 66.66%;}
+      .col-s-9 {width: 75%;}
+      .col-s-10 {width: 83.33%;}
+      .col-s-11 {width: 91.66%;}
+      .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    
+    html {
+      font-family: "Lucida Sans", sans-serif;
+    }
+    
+    .header {
+      background-color: #9933cc;
+      color: #ffffff;
+      padding: 15px;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 8px;
+      margin-bottom: 7px;
+      background-color: #33b5e5;
+      color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    
+    .menu li:hover {
+      background-color: #0099cc;
+    }
+    
+    .aside {
+      background-color: #33b5e5;
+      padding: 15px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    
+    .footer {
+      background-color: #0099cc;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      padding: 15px;
+      font-family:cooper black;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="header">
+      <h1>Photoshop Masking</h1>
+    </div>
+    
+    <div class="row">
+      <div class="col-3 col-s-3 menu">
+        <ul>
+          <li>Create your own</li>
+          <li>Practice it</li>
+          <li>Improves skills</li>
+          <li>Enhance your creativity</li>
+        </ul>
+      </div>
+    
+      <div class="col-6 col-s-9">
+        <h1>Refine Edge</h1>
+        <p>lets you improve selections to get even complex edges looking just right.</p>
+        <iframe src="https://www.youtube.com/embed/gqeRrc52tvE" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    
+      <div class="col-3 col-s-12">
+        <div class="aside">
+          <h2>Refine the mask edge using Photoshop</h2>
+          <p>Step 1: Click the Select and Mask button in the Properties panel to open the Select and Mask workspace.</p>
+          <p>Step 2: Select the Refine Edge Brush tool on the left side of the workspace. Then drag over the edge of the subject to clean up the mask edge.</p>
+          <p>Step 3: Select the Brush tool on the left, check that the Plus icon is enabled at the top of the workspace, and paint over a hidden area you want to bring into view.</p>
+          <p>Step 4: Switch to the Minus icon and paint over an area you want to hide from view.</p>
+          <p>Step 5: In the Select and Mask Properties panel on the right side of the workspace, try dragging the Smooth slider to the right to smooth the edge of the mask.</p>
+          <p>Step 6: Try dragging the Contrast slider to the right to make the edge of the mask less soft. If necessary, drag the Shift Edge slider to the left to reduce unwanted fringing at the mask edge.</p>
+          <p>Step 7: Choose Output to > Layer Mask and click OK to close the Select and Mask workspace and apply these refinements to the original layer mask.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Lessons Binge by Alice Tradio</p>
+    </div>
+    
+    </body>
+    </html>
+    
+    
+    
+</body>
+</html>
