@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    video {
+      width: 100%;
+      height: 80%;
+    }
+    
+    .row:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .col-s-1 {width: 8.33%;}
+      .col-s-2 {width: 16.66%;}
+      .col-s-3 {width: 25%;}
+      .col-s-4 {width: 33.33%;}
+      .col-s-5 {width: 41.66%;}
+      .col-s-6 {width: 50%;}
+      .col-s-7 {width: 58.33%;}
+      .col-s-8 {width: 66.66%;}
+      .col-s-9 {width: 75%;}
+      .col-s-10 {width: 83.33%;}
+      .col-s-11 {width: 91.66%;}
+      .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    
+    html {
+      font-family: "Lucida Sans", sans-serif;
+    }
+    
+    .header {
+      background-color: #52c048;
+      color: #ffffff;
+      padding: 15px;
+    }
+    
+    .navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  .aside {
+      background-color: #20b846;
+      padding: 15px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    </style>
+    </head>
+    <body>
+      <div class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <div class="dropdown">
+          <button class="dropbtn">Lessons
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="lesson 1.html">Lesson 1</a>
+            <a href="lesson 2.html">Lesson 2</a>
+            <a href="lesson 3.html">Lesson 3</a>
+            <a href="lesson 4.html">Lesson 4</a>
+            <a href="lesson 5.html">Lesson 5</a>
+            <a href="lesson 6.html">Lesson 6</a>
+            <a href="lesson 7.html">Lesson 7</a>
+            <a href="lesson 8.html">Lesson 8</a>
+            <a href="lesson 9.html">Lesson 9</a>
+            <a href="lesson 10.html">Lesson 10</a>
+        </div>
+      </div> 
+    </div>
+    <div class="header">
+      <img src="images/logo.png" alt="logo" style="float:right; width:120px; height:120px;"> 
+      <h1 style="font-family:cooper black;">LESSONS BINGE WEBSITE</h1>
+    </div>
+    
+    
+      <div class="col-6 col-s-9">
+        <h1>It's time to binge watch and read!</h1>
+        <p>You can find necessary lessons or tutorial here. Twice the learnings and double the fun in exploring this website. </p>
+        <video width="400" height="200" controls autoplay muted>
+          <source src="home.mp4" type="video/mp4">
+          <source src="home.ogg" type="video/ogg">
+        </video>
+      </div>
+    
+      <div class="col-3 col-s-12">
+        <div class="aside">
+          <h2>What?</h2>
+          <p>This is Lessons Binge Website</p>
+          <h2>What's Inside?</h2>
+          <p> There are 10 different lessons.</p>
+          <h2>Additional Features</h2>
+          <p>It includes videos, images and texts.</p>
+      </div>
+    </div><br><br>
+</body>
+</html>
